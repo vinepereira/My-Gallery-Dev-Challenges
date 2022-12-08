@@ -1,17 +1,17 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 NOT FOUND</h1>
+<h1 align="center">My Team Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
-    <a href="https://vinepereira.github.io/404-not-found-dev-challenges/">
+    <a href="">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?node-id=1%3A56&t=E8iGdqdoEcOv6b2O-0">
+    <a href="https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge?node-id=0%3A1&t=Yo8pvvyAE77T5eyU-0">
       Challenge
     </a>
   </h3>
