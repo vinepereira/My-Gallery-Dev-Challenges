@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-    <a href="">
+    <a href="https://vinepereira.github.io/My-Gallery-Dev-Challenges/">
       Solution
     </a>
     <span> | </span>
@@ -19,7 +19,7 @@
 
 ## Overview
 
-![screenshot](./overview.png)
+![screenshot](./Desktop.png)
 
 
 ### Built With
@@ -31,7 +31,7 @@
 
 - This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 - Responsive using display grid
-- An animation was also inserted into the image.
+- An animation was also inserted into the images.
 
 
 ## Contact
