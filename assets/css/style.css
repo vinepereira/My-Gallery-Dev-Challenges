@@ -27,14 +27,29 @@ img {
 
 /* HEADER */
 
-
+.header-img {
+    margin-bottom: 16px;
+}
 
 .header-img img {
     border-radius: 16px;
-    margin-bottom: 16px;
     width: 100%;
-    height: 310px;
-    object-fit: cover;
+    max-height: 310px;
+    object-fit: contain;
+    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 30%);
+    transition: all .3s;
+}
+.header-img img:hover {
+    animation: gira 1s; 
+}
+
+@keyframes gira {
+    0% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
 }
 
 .header-info h2 {
@@ -62,10 +77,12 @@ img {
     background-color: #E5E5E5;
     padding: 16px 32px;
     border-radius: 12px;
-    flex: 1 1 130px;
+    flex: 1 1 120px;
     text-align: center;
 }
-
+.data-cards:hover {
+    background-color: #eeeeee;
+}
 .data-cards p {
     font: 600 18px/1.2 'Montserrat', sans-serif;
     color: #4E5150;
@@ -74,4 +91,15 @@ img {
 .data-cards span {
     font: 600 14px/1.2 'Montserrat', sans-serif;
     color: #BDBDBD;
+}
+
+@media (max-width: 600px) {
+    .header-img {
+        padding: 0 60px;
+    }
+    .header-img img {
+        width: 100%;
+        max-height: 250px;
+        object-fit: contain;
+    }
 }
